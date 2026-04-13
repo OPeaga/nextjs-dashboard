@@ -14,7 +14,7 @@ export default async function Page(props: { params: Promise<{ id: string }> }) {
   if (!invoice) {
     notFound();
   }
-  console.log("params : " + params + " id : " + id);
+  // console.log("params : " + params + " id : " + id);
   return (
     <main>
       <Breadcrumbs
